@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "eventName": "Rock Fest",
+    "fullName": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "123-456-7890",
+    "age": 25,
+    "gender": "Male",
+    "tickets": 2,
+    "status": "Paid",
+    "seatNumber": 101
+  },
+  {
+    "id": 2,
+    "eventName": "Jazz Night",
+    "fullName": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "phone": "987-654-3210",
+    "age": 30,
+    "gender": "Female",
+    "tickets": 1,
+    "status": "Unpaid",
+    "seatNumber": 501
+  }
+]

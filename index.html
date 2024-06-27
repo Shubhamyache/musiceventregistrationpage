@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Mates</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        background-image: url("musicEvent.jpeg");
+        background-size: cover;
+        background-attachment: fixed;
+        color: #ffffff;
+      }
+      .badge-new {
+        background-color: #ff0000;
+        color: #ffffff;
+      }
+      .container {
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+      }
+      .event-card {
+        background-color: rgba(255, 255, 255, 0.1); /* Transparent white */
+        color: #ffffff; /* Text color */
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+      .event-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      footer {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-dark text-white p-3">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">MUSICMATES</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registration.html">Register</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container mt-5">
+      <h2 class="mb-4">Events</h2>
+      <div id="events-list" class="row">
+        <!-- Event cards will be populated here by the script -->
+      </div>
+    </div>
+
+    <footer class="bg-dark text-white p-3 mt-5 text-center">
+      &copy; 2024 Music Mates. All rights reserved.
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="indexScript.js"></script>
+  </body>
+</html>

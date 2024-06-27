@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Rock Fest",
+    "artist": "The Rockers",
+    "organizer": "Music World",
+    "bio": {
+      "artist": "A popular rock band with several hits.",
+      "organizer": "An event management company known for music festivals."
+    },
+    "contact": {
+      "artist": "rockers@example.com",
+      "organizer": "info@musicworld.com"
+    }
+  },
+  {
+    "id": 1,
+    "name": "Rock Fest2",
+    "artist": "The Rockers",
+    "organizer": "Music World",
+    "bio": {
+      "artist": "A popular rock band with several hits.",
+      "organizer": "An event management company known for music festivals."
+    },
+    "contact": {
+      "artist": "rockers@example.com",
+      "organizer": "info@musicworld.com"
+    }
+  },
+  {
+    "id": 1,
+    "name": "Rock Fest3",
+    "artist": "The Rockers",
+    "organizer": "Music World",
+    "bio": {
+      "artist": "A popular rock band with several hits.",
+      "organizer": "An event management company known for music festivals."
+    },
+    "contact": {
+      "artist": "rockers@example.com",
+      "organizer": "info@musicworld.com"
+    }
+  },
+  {
+    "id": 1,
+    "name": "Rock Fest4",
+    "artist": "The Rockers",
+    "organizer": "Music World",
+    "bio": {
+      "artist": "A popular rock band with several hits.",
+      "organizer": "An event management company known for music festivals."
+    },
+    "contact": {
+      "artist": "rockers@example.com",
+      "organizer": "info@musicworld.com"
+    }
+  },
+  {
+    "id": 1,
+    "name": "Rock Fest5",
+    "artist": "The Rockers",
+    "organizer": "Music World",
+    "bio": {
+      "artist": "A popular rock band with several hits.",
+      "organizer": "An event management company known for music festivals."
+    },
+    "contact": {
+      "artist": "rockers@example.com",
+      "organizer": "info@musicworld.com"
+    }
+  }
+]
